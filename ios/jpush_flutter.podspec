@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'jpush_flutter'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
 A new flutter plugin project.
@@ -16,7 +16,7 @@ A new flutter plugin project.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'JCore', '2.1.4-noidfa'
-  s.dependency 'JPush', '3.2.8-noidfa' 
+  s.dependency 'JPush', '3.2.4-noidfa' 
   
   s.ios.deployment_target = '8.0'
   s.static_framework = true
